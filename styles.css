@@ -9,7 +9,16 @@
 }
 html{
     background: #222048;
+    font-size: 62.5%;
 }
+
+.container {
+  width: 100%;
+  max-width: 500px; /* Adjust for desired maximum width */
+  margin: 0 auto;
+  padding: 20px;
+}
+
 .happy{
   width: 100%;
   font-family: 'Pacifico', cursive;
@@ -313,4 +322,12 @@ a.author{
   100% {
     opacity: 1;
   }
+}
+
+@media (min-width: 768px) {
+  /* Styles for tablets and larger screens */
+}
+
+@media (min-width: 992px) {
+  /* Styles for larger screens */
 }
